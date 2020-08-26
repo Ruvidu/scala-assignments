@@ -10,7 +10,7 @@ def tax(fullpay:Int):Double=fullpay*0.1
 def takehome(h1:Int,h2:Int):Double=fullpay(h1,h2)-tax(fullpay(h1,h2))
 
 //2
-def attendees(price:Int):Int=120+(15-price)/5*20
+def attendees(price:Int):Int=120+((15-price)/5)*20
 
 def revenue(price:Int):Int=attendees(price)*price
 
